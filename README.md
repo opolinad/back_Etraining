@@ -1,64 +1,21 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# BackEtraining
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+En este repositorio se encuentra lo correspondiente al back end de la CRUD para E training.
 
-## About Laravel
+## Ejecución
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Para ejecutar el proyecto se puede clonar el mismo y ejecutarlo desde un ambiente local. Para clonarlo puede acceder al botón verde que encuentra en la parte superior izquierda de la siguiente imagen:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![image](https://user-images.githubusercontent.com/92406653/165340669-05f7bd60-559c-4368-b965-ded5805b1489.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Una vez hace click en el botón puede copiar el enlace que se despliega (o puede descargar el archivo ZIP)
 
-## Learning Laravel
+![image](https://user-images.githubusercontent.com/92406653/165340738-3c70444d-0a13-4380-b085-93e350a92ef6.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Una vez se ha hecho el paso anterior, en su computador debe proceder al directorio donde quiere que se localice el proyecto y (1) si copió la dirección, debe abrir la terminal y escribir el comando ```git clone urlcopiada``` donde urlcopiada es lo que ha copiado (2) si descargó el zip, debe proceder a descomprimirlo (en la locación deseada).
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Una vez el proyecto está en el directorio deseado, se deben ejecutar las dependencias necesarias, para ello puede abrir la terminal, asegurandose que esté en el directorio del proyecto, y escribir el comando ```npm install``` (si se hace uso de npm) o ```yarn install``` (si se hace uso de yarn).
 
-## Laravel Sponsors
+Al cabo de unos minutos cuando estén instaladas todas las dependencias se puede correr el comando ```php artisan serve```. El proyecto puede ser testeado en conjunto con el front (https://github.com/opolinad/front_Etraining) o lo puede hacer desde Postman (o una aplicación similar)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![ezgif-3-079d27d5df](https://user-images.githubusercontent.com/92406653/165343080-8f5569e5-4a0a-48c5-9753-a019e521718a.gif)
